@@ -26,7 +26,7 @@ public class FieldWithName {
         if (o == null || getClass() != o.getClass()) return false;
         FieldWithName that = (FieldWithName) o;
         return name.equals(that.name) &&
-                Objects.equals(type, that.type);
+                Objects.equals(cls, that.cls);
     }
     
     @Override
